@@ -1,0 +1,9 @@
+id,title,description,priority,due_date,status
+1,Learn Flask,Complete Flask basics and routing,High,2026-07-15,Pending
+2,Create Project Structure,Set up folders and files for the project,High,2026-07-11,Completed
+3,Design Homepage,Create the HTML homepage layout,Medium,2026-07-16,Pending
+4,Read CSV Data,Implement CSV file reading in Python,High,2026-07-17,Pending
+5,Complete certification course,Coursera Data Science course ,Medium,2026-07-18,Pending
+6,Mark Task Complete,Implement task completion feature,Medium,2026-07-19,Pending
+7,Delete Task,Allow users to remove tasks,Medium,2026-07-20,Pending
+8,Initialize Git Repository,Track project using Git,High,2026-07-21,Pending

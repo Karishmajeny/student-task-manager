@@ -1,0 +1,413 @@
+/* ==================================
+   TaskForge Pastel Pink-Yellow Theme
+   ================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+
+
+/* Main Background */
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        #ffd6e7,
+        #fff4b8
+    );
+
+    padding:30px;
+
+}
+
+
+
+/* Main Heading */
+
+h1{
+
+    color:#8e3b65;
+
+    font-weight:700;
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* ==========================
+   Welcome Banner
+   ========================== */
+
+
+.welcome-banner{
+
+    background:
+    rgba(255,255,255,0.65);
+
+
+    backdrop-filter:blur(15px);
+
+
+    border-radius:25px;
+
+
+    padding:30px;
+
+
+    color:#8e3b65;
+
+
+    text-align:center;
+
+
+    margin-bottom:35px;
+
+
+    box-shadow:
+    0 10px 25px rgba(180,100,120,0.2);
+
+}
+
+
+
+.welcome-banner h2{
+
+    font-weight:700;
+
+}
+
+
+.welcome-banner p{
+
+    color:#9b6b7d;
+
+    margin-top:10px;
+
+}
+
+
+
+/* ==========================
+   Dashboard Cards
+   ========================== */
+
+
+.dashboard{
+
+    border:none;
+
+
+    border-radius:25px;
+
+
+    padding:10px;
+
+
+    box-shadow:
+    0 12px 25px rgba(180,120,120,0.25);
+
+
+    transition:0.3s ease;
+
+}
+
+
+
+.dashboard:hover{
+
+    transform:
+    translateY(-8px);
+
+
+}
+
+
+
+.dashboard h5{
+
+    font-weight:600;
+
+}
+
+
+
+.dashboard h2{
+
+    font-size:35px;
+
+    font-weight:700;
+
+}
+
+
+
+/* Card Colors */
+
+
+.total{
+
+    background:
+    linear-gradient(
+        135deg,
+        #ffb6d9,
+        #ffc8e3
+    );
+
+    color:#7a2855;
+
+}
+
+
+
+.completed{
+
+    background:
+    linear-gradient(
+        135deg,
+        #fff3a6,
+        #ffe680
+    );
+
+
+    color:#806000;
+
+}
+
+
+
+.pending{
+
+    background:
+    linear-gradient(
+        135deg,
+        #ffd6a5,
+        #ffefc1
+    );
+
+
+    color:#8a5200;
+
+}
+
+
+
+.high{
+
+    background:
+    linear-gradient(
+        135deg,
+        #ff9ebc,
+        #ffc1d6
+    );
+
+
+    color:#7d1740;
+
+}
+
+
+
+/* ==========================
+   Table Styling
+   ========================== */
+
+
+table{
+
+    background:white;
+
+
+    border-radius:25px;
+
+
+    overflow:hidden;
+
+
+    box-shadow:
+    0 10px 30px rgba(150,100,100,0.2);
+
+}
+
+
+
+thead{
+
+    background:#ffb6c9;
+
+    color:#6d214f;
+
+}
+
+
+
+thead th{
+
+    padding:18px !important;
+
+}
+
+
+
+tbody td{
+
+    padding:15px !important;
+
+    vertical-align:middle;
+
+}
+
+
+
+tbody tr{
+
+    transition:.3s;
+
+}
+
+
+
+tbody tr:hover{
+
+    background:#fff8dc;
+
+
+    transform:
+    scale(1.01);
+
+}
+
+
+
+/* ==========================
+   Badges
+   ========================== */
+
+
+.badge{
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+}
+
+
+
+/* ==========================
+   Buttons
+   ========================== */
+
+
+.btn-primary{
+
+    background:#ff8fb1;
+
+    border:none;
+
+
+    border-radius:30px;
+
+
+    padding:10px 25px;
+
+
+    font-weight:600;
+
+}
+
+
+
+.btn-primary:hover{
+
+    background:#ff6f9c;
+
+}
+
+
+
+.btn-success{
+
+    background:#f6c945;
+
+    border:none;
+
+    color:#6b5200;
+
+}
+
+
+
+.btn-danger{
+
+    background:#ff7b9c;
+
+    border:none;
+
+}
+
+
+
+/* ==========================
+   Footer
+   ========================== */
+
+
+footer{
+
+    color:#8e3b65;
+
+
+    margin-top:40px;
+
+
+    text-align:center;
+
+
+    font-weight:500;
+
+}
+
+
+
+/* ==========================
+   Responsive
+   ========================== */
+
+
+@media(max-width:768px){
+
+
+    body{
+
+        padding:15px;
+
+    }
+
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+
+}
